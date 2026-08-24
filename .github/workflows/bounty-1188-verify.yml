@@ -20,3 +20,5 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm --filter drizzle-orm test -- mysql-binary-buffer.test.ts
       - run: pnpm --filter drizzle-orm test:types
+
+# Temporary fork-only verification workflow.
